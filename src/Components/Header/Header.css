@@ -43,3 +43,14 @@
 .drop-down i{
     font-size: 1.2rem;
 }
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .brand-badge span{
+        display: none;
+    }
+    .brand{
+        width: 100px;
+    }
+}
+ 

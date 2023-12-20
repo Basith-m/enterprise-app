@@ -3,6 +3,7 @@
     flex-direction: column;
     position: relative;
 }
+
 .profle{
     width: 100%;
     display: flex;
@@ -67,3 +68,4 @@
     font-weight: 600;
     color: #0062ff;
 }
+

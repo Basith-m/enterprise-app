@@ -8,6 +8,10 @@ function Dashboard() {
       <div className='side-bar'>
         <Sidebar />
       </div>
+      {/* toggle btn */}
+      {/* <div className='toggle-btn'>
+        <i class="fa-solid fa-bars"></i>
+      </div> */}
       <div className='body-container'>
         <div className='body-header'>
           <h2>Choose a plan that's just right for you !</h2>
@@ -104,9 +108,9 @@ function Dashboard() {
           </div>
         </div>
         <div className="row">
-          <div className="bottm-card">
+          <div className="bottom-card">
             <div className="left">
-              <div style={{backgroundColor:'#74ff4e'}} className='free-forever'>
+              <div style={{ backgroundColor: '#74ff4e' }} className='free-forever'>
                 <p>Free Forever</p>
               </div>
               <h2>Free Starter</h2>
@@ -129,20 +133,20 @@ function Dashboard() {
                 <i class="fa-regular fa-envelope"></i>
                 <span>Email</span>
               </div>
-              <div style={{display:'flex'}}>
+              <div style={{ display: 'flex' }}>
                 <i class="fa-solid fa-check-double"></i>
-                <span style={{marginLeft:'10px'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facilis in consequuntur dicta.</span>
+                <span style={{ marginLeft: '10px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facilis in consequuntur dicta.</span>
               </div>
             </div>
           </div>
-          <div className="bottm-card">
+          <div className="bottom-card">
             <div className="left">
-              <div style={{backgroundColor:'#99d1ff'}} className='free-forever'>
+              <div style={{ backgroundColor: '#99d1ff' }} className='free-forever'>
                 <p>Let's Connect</p>
               </div>
               <h1>Enterprise Plan</h1>
               <p>The quickest and easiest way to try protocols with basic functionalities</p>
-              <button style={{backgroundColor:'#99d1ff'}}>Get Started <i class="fa-solid fa-arrow-right"></i></button>
+              <button style={{ backgroundColor: '#99d1ff' }}>Get Started <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="right">
               <h5>What you'll get :</h5>
@@ -160,9 +164,9 @@ function Dashboard() {
                 <i class="fa-regular fa-envelope"></i>
                 <span>Email</span>
               </div>
-              <div style={{display:'flex'}}>
+              <div style={{ display: 'flex' }}>
                 <i class="fa-solid fa-check-double"></i>
-                <span style={{marginLeft:'10px'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                <span style={{ marginLeft: '10px' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
               </div>
             </div>
           </div>
