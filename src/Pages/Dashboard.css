@@ -1,6 +1,20 @@
 .container{
     display: flex;
 }
+.toggle-btn{
+    height: 50px;
+    width: 50px;
+    font-size: 1.4rem;
+    margin-left: -20px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    visibility: hidden;
+    cursor: pointer;margin-bottom: 10px;
+}
 .side-bar{
     width: 200px;
     background-color: white;
@@ -154,6 +168,7 @@
     font-size: 14px;
 }
 .bottom-card{
+    width: 100%;
     transition: 0.8s;
     border-radius: 6px;
     display: flex;
@@ -208,10 +223,17 @@
 }
 
 
+
 @media only screen and (max-width: 870px) {
-    .side-bar{
+    .hidden {
         margin-left: -200px;
     }
+    .toggle-btn{
+        visibility: visible;
+    }
+    /* .side-bar{
+        margin-left: -200px;
+    } */
     .body-header{
         flex-direction: column;       
     }
@@ -230,7 +252,7 @@
     }
     .body-container{
         width: 90%;
-        align-items: center;
+        /* align-items: center; */
     }
   }
 
@@ -256,6 +278,25 @@
 
   @media only screen and (max-width: 1100px){
     .grid-container{
+        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 560px){
+    .body-container{
+        width: 86%;
+    }
+    .bottom-card{
+        flex-direction: column;
+        width: 360px;
+    }
+    .left,.right{
+        width: 100%;
+    }
+    .row{
         grid-template-columns: auto;
         display: flex;
         flex-direction: column;

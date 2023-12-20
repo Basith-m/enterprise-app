@@ -1,18 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Dashboard.css'
 import Sidebar from '../Components/Header/Sidebar/Sidebar'
 
 function Dashboard() {
+
+  const [showSidebar, setShowSidebar] = useState(false);
+
+  const toggleSidebar = () => {
+    setShowSidebar(!showSidebar);
+  };
+
   return (
     <div className='container'>
-      <div className='side-bar'>
+      <div className={`side-bar ${showSidebar ? '' : 'hidden'}`}>
         <Sidebar />
       </div>
-      {/* toggle btn */}
-      {/* <div className='toggle-btn'>
-        <i class="fa-solid fa-bars"></i>
-      </div> */}
+
       <div className='body-container'>
+        {/* toggle btn */}
+        <div className='toggle-btn' onClick={toggleSidebar}>
+          <i class="fa-solid fa-bars"></i>
+        </div>
         <div className='body-header'>
           <h2>Choose a plan that's just right for you !</h2>
           <div className='buttons'>
