@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    height: 85vh;
+}
+.side-bar{
+    width: 200px;
+    height: 85vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.body-container{
+    background-color: white;
+    height: 85vh;
+    width: 83%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
