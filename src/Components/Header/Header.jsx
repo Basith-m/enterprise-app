@@ -9,7 +9,7 @@ function Header() {
             </div>
             <div className='header-left'>
                 <div className="brand-badge">
-                    <img width={'48px'} className='badge-image' src="/Assets/badge-image.jpg" alt="" />
+                    <img width={'40px'} className='badge-image' src="/Assets/badge-image.jpg" alt="" />
                     <span>XYZ Enterprises Pvt.Ltd</span>
                 </div>
                 <div className="drop-down">

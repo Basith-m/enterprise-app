@@ -1,9 +1,7 @@
 .sidebar-container{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     position: relative;
-    height: 85vh;
 }
 .profle{
     width: 100%;
@@ -54,12 +52,16 @@
 .nav-item i{
     color: #0062ff;
 }
+.page-nav{
+    margin-bottom: 100px;
+}
 .logout{
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 30%;
 }
 .logout button{
+    background-color: white;
     border: none;
     font-size: 1rem;
     font-weight: 600;
